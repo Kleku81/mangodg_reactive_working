@@ -25,8 +25,10 @@ public class DevelopmentConfig {
     	  Tweet tweet1 = new Tweet("test1 tweet");  
     	  Tweet tweet2 = new Tweet("test2 tweet");  
     	  Tweet tweet3 = new Tweet("test3 tweet");  
+    	  Tweet tweet4 = new Tweet("test4 tweet");
         
 //        UserUDT u = new UserUDT(username, fullname, phoneNumber)
+    	  System.out.println("czym jest save do repo " + repo.save(tweet1));
         
          repo.save(tweet1).subscribe(); 
          repo.save(tweet2).subscribe(); 
